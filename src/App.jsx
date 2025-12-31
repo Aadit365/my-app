@@ -69,24 +69,23 @@ class App extends React.Component {
             onClick={() => this.addItem(this.state.newItem)}
             disabled={!this.state.newItem.length}
             >Add Task</button>
-            <br/>
-            <div className="list">
-              <ul>
-                {this.state.list.map(item => (
-                  <li key={item.id} className="task">
-                    <input
-                      type="checkbox"
-                      checked={item.isDone}
-                      onChange={() => this.toggleItem(item.id)} />
-                    <span className={item.isDone ? 'done' : ''}>{item.value}</span>
-                    <button
-                      className="btn"
-                      onClick={() => this.deleteItem(item.id)}
-                    >Delete</button>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          </div>
+          <div className="list">
+            <ul>
+              {this.state.list.map(item => (
+                <li key={item.id} className="task">
+                  <input
+                    type="checkbox"
+                    checked={item.isDone}
+                    onChange={() => this.toggleItem(item.id)} />
+                  <span className={item.isDone ? 'done' : ''}>{item.value}</span>
+                  <button
+                    className="btn"
+                    onClick={() => this.deleteItem(item.id)}
+                  >Delete</button>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

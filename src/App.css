@@ -21,6 +21,11 @@ body {
   width: 450px;
   padding: 0 1rem;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  gap: 0.75rem;
+  position: relative;
 }
 
 .form-label {
@@ -80,10 +85,17 @@ body {
 }
 
 /* task list styles */
+.list {
+  margin-top: auto;
+  width: 100%;
+}
 .list ul {
   list-style: disc;
   padding-left: 1.25rem;
-  margin: 0.5rem 0 0 0;
+  margin: 1.5rem 0 0 0;
+  max-height: 20rem;
+  overflow: auto;
+  padding-right: 0.5rem;
 }
 
 .task {
