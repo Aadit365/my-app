@@ -1,0 +1,105 @@
+body {
+  background : linear-gradient(to right, #00188F, #EC008C);
+  font-size: 20px;
+}
+
+.container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-self: stretch;
+  gap: 1rem;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+  align-self: flex-start;
+  width: 450px;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color : rgb(245, 186, 37);
+}
+
+.form-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: large;
+}
+
+.input-text {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0.5rem 0.75rem;
+  border-radius: 20px;
+  background: #f0f4f8;          /* light background */
+  color: #111;                  /* text color */
+  border: 3px solid #1582e1;    /* border color */
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.app-title {
+  color: gold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-btn {
+  background-color: #2563eb;    /* blue background */
+  color: #fff;                  /* white text */
+  border: none;
+  padding: 0.55rem 0.9rem;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+
+.add-btn:hover {
+  background-color: #1e40af;    /* darker on hover */
+}
+
+.btn {
+  background-color: red;
+  border : none;
+  padding : 0.55rem 0.9rem;
+  border-radius: 25 px;
+}
+
+/* task list styles */
+.list ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #008000; /* sets the checkbox color in modern browsers */
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgba(0,0,0,0.45);
+}
