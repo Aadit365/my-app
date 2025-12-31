@@ -1,16 +1,53 @@
-# React + Vite
+# 📝 Todo Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive **task management web app** built with modern web technologies. This project helps users organize their daily tasks, stay productive, and maintain a clean workflow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ➕ Add new tasks quickly
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks with ease
+- 📱 Responsive design for desktop
+- ⚡ Fast and lightweight interface
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend:** React.js
+- **Styling:** CSS
+- **Database:** LocalStorage
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```text
+todo-planner/
+├── index.html        # Main entry point
+├── app.css           # All UI styling
+├── App.jsx           # Logic and LocalStorage handling
+└── assets/           # Images, icons, and fonts
+```
+
+---
+
+## 📋 Getting Started
+Follow these steps to run the project locally on your machine:
+1. Clone the Repository:
+   git clone [https://github.com/Aadit365/todo-planner.git](https://github.com/Aadit365/todo-planner.git)
+2. Navigate to the Folder:
+   cd todo-planner
+3. Run the App:
+   Simply open the index.html file in your favorite web browser, or use the Live Server extension in VS Code.
+
+## 🤝 Contributing
+1. Fork the project.
+2. Create your feature branch (git checkout -b feature/NewFeature).
+3. Commit your changes (git commit -m 'Add some NewFeature').
+4. Push to the branch (git push origin feature/NewFeature).
+5. Open a Pull Request.
+
+## 📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+### Developed with ❤️ by Aadit365
